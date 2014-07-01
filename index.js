@@ -7,9 +7,14 @@ server.start(function() {
 });
 
 server.route({
-    path: "/",
+    path: "/hello/{name*2}",
     method: "GET",
     handler: function(request, reply) {
-        reply("Hello, world!");
+    		var name = request.params.name.split("/");
+        reply({
+        	first : name[0],
+        	last : name[1],
+        	mood : request.query.mood || "neutral"
+        });
     }
 });
