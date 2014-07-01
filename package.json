@@ -24,6 +24,7 @@
   "dependencies": {
     "hapi": "^5.0.0",
     "joi": "^4.6.1",
-    "catbox-redis": "^1.0.3"
+    "catbox-redis": "^1.0.3",
+    "handlebars": "^2.0.0-alpha.4"
   }
 }

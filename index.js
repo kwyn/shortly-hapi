@@ -21,12 +21,13 @@ var helloConfig = {
 	handler : function(req, res){
 		var name = req.params.name.split("/");
 			server.methods.getColour(req.params.name, function(err, colour){
-	      res({
-	      	first : name[0],
-	      	last : name[1],
-	      	mood : req.query.mood || "neutral",
-	      	colour : colour
-	      });	
+	      res.view("hello", {
+			    first: name[0],
+			    last: name[1],
+			    mood: req.query.mood,
+			    age: req.query.age,
+			    colour: colour
+				});
 			})
 	},
 	validate : {

@@ -6,5 +6,11 @@ exports.server  = {
       partition: "MyApp",
       password: "mypassword"
     }
-  }
+  },
+  views: {
+    engines: {
+        hbs: "handlebars"
+    },
+    path: "./views"
+	}
 };
