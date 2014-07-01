@@ -1,0 +1,14 @@
+{
+  "name": "user",
+  "version": "0.0.1",
+  "description": "User plugin for shortly-hapi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "HarleyKwyn",
+  "license": "BSD",
+  "dependencies": {
+    "joi": "^4.6.1"
+  }
+}
