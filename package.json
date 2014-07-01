@@ -1,0 +1,27 @@
+{
+  "name": "shortly-hapi",
+  "version": "0.0.1",
+  "description": "URL shortener on hapi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HarleyKwyn/shortly-hapi.git"
+  },
+  "keywords": [
+    "hapi",
+    "url",
+    "short"
+  ],
+  "author": "HarleyKwyn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HarleyKwyn/shortly-hapi/issues"
+  },
+  "homepage": "https://github.com/HarleyKwyn/shortly-hapi",
+  "dependencies": {
+    "hapi": "^6.0.2"
+  }
+}
