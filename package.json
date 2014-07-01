@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/HarleyKwyn/shortly-hapi",
   "dependencies": {
-    "hapi": "^6.0.2",
-    "joi": "^4.6.1"
+    "hapi": "^5.0.0",
+    "joi": "^4.6.1",
+    "catbox-redis": "^1.0.3"
   }
 }
