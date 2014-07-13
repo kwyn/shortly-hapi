@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title> {{#if title}} {{title}} {{else}} hlykw.in {{/if}} </title>
+  <link type="text/css" href="/static/css/." ></link>
+</head>
+<body>
+  <div id="wrap">
+    <div id="content">
+  {{>nav }}
+  <header> HarleyKwyn -> hlykw.in/...</header>
+    <form action="/shorten" method="post">
+      <input name="shorten" type="url" placeholder="Website URL" autofocus="true"></input>
+    </form>

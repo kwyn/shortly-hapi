@@ -4,6 +4,7 @@
   "description": "URL shortener on hapi",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,6 +25,10 @@
   "dependencies": {
     "hapi": "^5.0.0",
     "joi": "^4.6.1",
-    "handlebars": "^2.0.0-alpha.4"
+    "handlebars": "^2.0.0-alpha.4",
+    "bookshelf": "^0.7.6"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.6"
   }
 }

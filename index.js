@@ -11,17 +11,23 @@ server.route({
 });
 
 server.route({
-  path: '/',
+  path: '/static/{path*}',
   method: 'GET',
-  handler: function(req, res){
-  	res({'home page': "OK"});
+  handler: {
+    directory: {
+      path: './static',
+      listing: false,
+      index: false
+    }
   }
 });
+
 server.pack.require({
+  './facets/link': null,
 	'./facets/user': null
 }, function(err) {
     if (err) throw err;
-    //middle wear setup?
+
     server.start(function() {
         console.log("Hapi server started @ " + server.info.uri);
     });
