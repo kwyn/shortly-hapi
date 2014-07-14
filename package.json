@@ -23,9 +23,14 @@
   },
   "homepage": "https://github.com/HarleyKwyn/shortly-hapi",
   "dependencies": {
-    "hapi": "^5.0.0",
-    "joi": "^4.6.1",
-    "handlebars": "^2.0.0-alpha.4",
+    "bistre": "0.0.1",
+    "bole": "^0.1.0",
+    "catbox": "^2.2.1",
+    "catbox-redis": "^1.0.1",
+    "handlebars": "^2.0.0-alpha.2",
+    "hapi": "^6.0.0",
+    "hapi-auth-cookie": "^1.0.3",
+    "joi": "^4.0.0",
     "bookshelf": "^0.7.6"
   },
   "devDependencies": {
